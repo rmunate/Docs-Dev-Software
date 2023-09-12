@@ -382,3 +382,6 @@ mysql_secure_installation
 ```
 
 Esto te permitirá configurar la seguridad básica de MySQL.
+
+Creditos: 
+La version original de este manual fue construido por: https://twitter.com/rhuk y puede ser consultado en https://getgrav.org/blog/macos-ventura-apache-multiple-php-versions

@@ -390,3 +390,6 @@ mysql_secure_installation
 ```
 
 This will allow you to configure basic MySQL security settings.
+
+Credits:
+The original version of this guide was created by: https://twitter.com/rhuk and can be referenced at https://getgrav.org/blog/macos-ventura-apache-multiple-php-versions
