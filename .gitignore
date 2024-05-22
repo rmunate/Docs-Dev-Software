@@ -1,0 +1,12 @@
+# Ignore common macOS files and directories
+**/.DS_Store
+
+# Ignore automatically generated files and directories
+/.fleet
+/.idea
+/.vscode
+
+# Node
+node_modules
+.vitepress/cache
+.vitepress/dist

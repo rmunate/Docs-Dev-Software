@@ -1,4 +1,9 @@
-# Ambiente De Desarrollo MAC OS
+---
+title: PHP en Mac
+---
+
+# Ambiente De Desarrollo PHP MAC OS
+
 He tenido la oportunidad de probar diferentes soluciones de ambientes de desarrollo en MAC OS, durante un tiempo trabaje con MAMP (https://www.mamp.info/en/mamp-pro/mac/) y luego cuando salio Herd Laravel (https://herd.laravel.com/) tambien trabajé con este, sin embargo he tenido diversos inconvenientes con manejo de extensiones, modificaciones al php.ini, manejo de sistemas en PHP nativo sin framework, problemas con respuestas inesperadas de parte del servidor, inasistencia a temas de OpenSSL, etc.
 Debido a esto decidi emplear la mejor manera que a la fecha me ha servido para trabjar sobre IOS, a continuacion relaciono el manual de instalacion del ambiente de Apache + PHP + MySQL en IOS, una manera facil, sencilla de configurar y sobre todo muy eficiente y funcional.
 
@@ -74,7 +79,7 @@ brew services start httpd
 
 Ahora ha instalado Apache de Homebrew y lo ha configurado para que se inicie automáticamente con una cuenta privilegiada. Ya debería estar ejecutándose, así que puedes intentar acceder a tu servidor en un navegador apuntándolo a , deberías ver un encabezado simple que dice "¡Funciona!". `http://localhost:8080`
 
-![Apache](https://getgrav.org/user/pages/03.blog/macos-ventura-apache-multiple-php-versions/it-works.png)
+![Apache](https://getgrav.org/user/pages/03.blog/macos-sonoma-apache-multiple-php-versions/it-works.png?g-e40f4032)
 
 **Consejos para solucionar problemas**
 Si recibe un mensaje que indica que el navegador no puede conectarse al servidor, primero verifique que el servidor esté activo.
@@ -128,7 +133,7 @@ Si siguió las instrucciones anteriores, debería poder usar Visual Studio Code 
 code /usr/local/etc/httpd/httpd.conf
 ```
 
-![httpd](https://getgrav.org/user/pages/03.blog/macos-ventura-apache-multiple-php-versions/vsc.png?)
+![httpd](https://getgrav.org/user/pages/03.blog/macos-sonoma-apache-multiple-php-versions/vsc.png?g-e40f4032)
 
 Busca la línea que dice `Listen 8080` y cambiala a `Listen 80`
 
@@ -207,7 +212,7 @@ brew services start httpd
 
 Al apuntar su navegador debería mostrar su nuevo mensaje. Si eso funciona, ¡podemos seguir adelante!
 
-![LocalHost](https://getgrav.org/user/pages/03.blog/macos-ventura-apache-multiple-php-versions/sites-webroot.png)
+![LocalHost](https://getgrav.org/user/pages/03.blog/macos-sonoma-apache-multiple-php-versions/sites-webroot.png?g-e40f4032)
 
 ## INSTALACION DE PHP
 
@@ -383,5 +388,9 @@ mysql_secure_installation
 
 Esto te permitirá configurar la seguridad básica de MySQL.
 
-Creditos: 
-La version original de este manual fue construido por: https://twitter.com/rhuk y puede ser consultado en https://getgrav.org/blog/macos-ventura-apache-multiple-php-versions
+<Autor 
+  imagen="https://avatars.githubusercontent.com/u/91748598?v=4" 
+  nombre="Raul Mauricio Uñate Castro" 
+  rol="Desarrollador Full Stack"
+  git="https://github.com/rmunate"
+/>
