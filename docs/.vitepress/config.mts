@@ -5,7 +5,7 @@ export default defineConfig({
     description: "Manual Practicas Desarrollo De Software.",
     lang: 'es',
     lastUpdated: true,
-    base: '/',
+    base: '/Docs-Dev-Software',
     themeConfig: {
         logo: '/logo.png',
         nav: [
@@ -65,7 +65,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/rmunate/Manuales'}
+            {icon: 'github', link: 'https://github.com/rmunate//Docs-Dev-Software'}
         ],
         search: {
             provider: 'local'
@@ -74,17 +74,17 @@ export default defineConfig({
     head: [
         ['link', {
                 rel: 'icon',
-                href: '/favicon.ico',
+                href: '/Docs-Dev-Software/favicon.ico',
             }
         ],
         ['meta', {
                 property: 'og:image',
-                content: '/logo.png'
+                content: '/Docs-Dev-Software/logo.png'
             }
         ],
         ['meta', {
                 property: 'og:image:secure_url',
-                content: '/logo.png'
+                content: '/Docs-Dev-Software/logo.png'
             }
         ],
         ['meta', {
@@ -109,7 +109,7 @@ export default defineConfig({
         ],
         ['meta', {
                 property: 'og:url',
-                content: 'https://github.com/rmunate/Manuales'
+                content: 'https://github.com/rmunate/Docs-Dev-Software'
             }
         ],
         ['meta', {
