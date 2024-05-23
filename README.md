@@ -1,7 +1,7 @@
 # 📚 Development Practices Manual
 
 ## Introduction
-Welcome to the Development Practices Manual of the Altum Digital team. Our goal is to standardize software development practices, enhance code quality, and establish guidelines for future projects without altering the existing ones.
+Welcome to the Development Practices Manual. Our goal is to standardize software development practices, enhance code quality, and establish guidelines for future projects without altering the existing ones.
 
 ## Checkpoints
 Before merging any changes with the production branches of our applications, the guidelines in this manual must be reviewed.
