@@ -1,4 +1,4 @@
-# 📚 Development Practices Manual
+# Development Practices Manual 📚
 
 ## Introduction
 Welcome to the Development Practices Manual. Our goal is to standardize software development practices, enhance code quality, and establish guidelines for future projects without altering the existing ones.
